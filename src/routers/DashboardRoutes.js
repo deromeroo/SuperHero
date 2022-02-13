@@ -24,14 +24,6 @@ export const DashboardRoutes = () => {
                     <Route exact path="/dc/villains" component={ DcVillainsScreen } />  
                     <Route exact path="/search" component={ SearchScreen } /> 
 
-                    <Route path='/github' component={ () => {
-                        window.location.replace('https://github.com/deromeroo')
-                    } }/> 
-
-                    <Route path='/linkedin' component={ () => {
-                        window.location.replace('https://linkedin.com/in/deromeroo')
-                    } }/> 
-
                     <Redirect to="/marvel" />                 
                 </Switch>
             </div> 

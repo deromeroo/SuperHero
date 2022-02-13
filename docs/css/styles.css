@@ -77,9 +77,7 @@ button{
 /*Footer Global*/
 
 .copy {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
     color: white;
     background-color: var(--colorExtra);
 }
@@ -101,10 +99,6 @@ button{
     color: var(--colorSecundario) ;
 }
 
-.copy i {
-    color: var(--colorSecundario);
-    margin: 0 1rem;
-}
 
 /*bootstrap*/
 
