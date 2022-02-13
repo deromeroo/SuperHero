@@ -1,0 +1,256 @@
+:root{
+
+    --colorPrincipal: #1b6aa5;
+    --colorSecundario: #d39e00;
+    --colorExtra: #333;
+
+    --fuentePrincipal: 'Oswald', sans-serif;
+    --fuenteSecundaria: 'Teko', sans-serif;
+}
+
+/*Fuentes de la web */
+h1,h2,h3,h4,h5,h6,a{
+    font-family: var(--fuentePrincipal);
+}
+
+h1,h2,h3{
+    color: var(--colorExtra);
+}
+
+p{
+    font-family: var(--fuenteSecundaria);
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+li{
+    font-size: 1.2rem;
+    font-family: var(--fuenteSecundaria);
+}
+
+b{
+    color: var(--colorSecundario);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+button{
+    font-family: var(--fuentePrincipal);
+}
+
+/*Covers de la web*/
+
+/*Home*/
+.home-cover{
+    background-image: url(../assets/MvD/mvd2.webp);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+}
+
+/*Marvel Covers*/
+
+.marvel-cover {
+    background-image: url(../assets/MvD/marvel-home.webp);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+}
+
+
+/*DC Covers*/
+
+.dc-cover{
+    background-image: url(../assets/MvD/DC-Home.webp);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+}
+
+/*Footer Global*/
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: var(--colorExtra);
+}
+
+.copy p{
+    font-weight: 400;
+    font-size: .8rem;
+    padding: .4rem;
+    font-family: var(--fuentePrincipal);
+}
+
+@media (min-width: 762px) {
+   .copy p{
+       font-size: .8rem;
+   }
+}
+
+.copy span{
+    color: var(--colorSecundario) ;
+}
+
+.copy i {
+    color: var(--colorSecundario);
+    margin: 0 1rem;
+}
+
+/*bootstrap*/
+
+.list-group-item{
+    padding: .5rem 1rem;
+}
+
+.card a {
+    color: var(--colorPrincipal);
+    font-size: 1.2rem;
+}
+
+.card a:hover{
+    text-decoration: none;
+
+}
+
+.card-title{
+    color: var(--colorSecundario);
+}
+
+.btn-back{
+    background-color: rgb(255, 255, 255);
+    color: var(--colorSecundario);
+    font-size: 2rem;
+}
+
+/*NAVBAR CSS*/
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: var(--colorPrincipal);
+}
+
+.first-nav{
+    box-shadow: 0px 0px 14px #000000;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    color: #dee2e6;
+}
+
+.navbar-brand span, .user{
+    color: var(--colorSecundario) !important;
+}
+
+.navbar-toggler{
+    border: none;
+    line-height: normal;
+}
+
+.navbar-nav{
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+.nav-link{
+    padding: none !important;
+}
+
+.search-icon{
+    display: flex;
+}
+
+.search-icon i{
+    margin-left: .5rem;
+}
+
+.btn-search{
+    background-color: var(--colorPrincipal);
+    color: #fff;
+}
+
+.user{
+    font-family: var(--fuentePrincipal);
+}
+
+.active{
+    border-bottom: 3px solid var(--colorSecundario);
+}
+
+.active, .nav-link i, .navbar-toggler i {
+    color: var(--colorSecundario) !important;
+}
+
+/*LOGIN CSS*/
+/*LOGIN PAGE*/
+
+.login-page{
+
+    min-height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-image: url(../assets/MvD/mvd1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.login-box{
+    width: 70%;
+}
+
+.login-box .card{
+    background-color: #ffffffbd;
+}
+
+@media (min-width: 720px) {
+   .login-box{
+       width: 35%
+   }
+}
+
+.login-logo{
+    padding: .5rem;
+    background-color: var(--colorExtra);
+}
+
+.login-logo h5{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.login-logo span{
+    color: var(--colorSecundario);
+}
+
+.login-box i{
+    color: var(--colorSecundario) !important;
+}
+
+.btn-dark{
+    border: none;
+}
+
+.btn-dark:hover{
+    background-color: var(--colorSecundario);
+    color: var(--colorExtra);
+}
