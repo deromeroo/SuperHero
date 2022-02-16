@@ -42,6 +42,10 @@ button{
     font-family: var(--fuentePrincipal);
 }
 
+img{
+    width: 100%;
+}
+
 /*Covers de la web*/
 
 /*Home*/
@@ -104,6 +108,7 @@ button{
 
 .list-group-item{
     padding: .5rem 1rem;
+    text-transform: capitalize;
 }
 
 .card a {
@@ -118,6 +123,14 @@ button{
 
 .card-title{
     color: var(--colorSecundario);
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.card-body{
+    text-align: center;
+    padding: .5rem !important;
 }
 
 .btn-back{

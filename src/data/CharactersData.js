@@ -49,7 +49,7 @@ export const characters = [
             "relatives": "Howard Anthony Stark (father, deceased), Maria Stark (mother, deceased), Morgan Stark (cousin), Isaac Stark (ancestor)"
         },
         "image": {
-            "url": "https://www.superherodb.com/pictures2/portraits/10/100/85.jpg"
+            "url": "https://www.venta.com.mx/sh-img/aug180958__70638.1541100080_marvel%2Bcomics%2Biron%2Bman.jpg"
         }
     },
     {
@@ -98,7 +98,7 @@ export const characters = [
             "relatives": "Joseph (father, deceased), Sara (mother, deceased), Ian Zola (Nomad) (adopted son)"
         },
         "image": {
-            "url": "https://www.superherodb.com/pictures2/portraits/10/100/274.jpg"
+            "url": "http://pm1.narvii.com/6944/327225206fad0b5f8fdcf84921219b37e3071c65r1-720-938v2_00.jpg"
         }
     },
     {

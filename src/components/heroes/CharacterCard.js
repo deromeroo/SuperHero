@@ -28,7 +28,7 @@ export const CharacterCard = ({
 
             <div className="col-md-6">
                 <div className="card-body">
-                    <h5 className="card-title text-center m-0"> {name} </h5>
+                    <h5 className="card-title text-center"> {name} </h5>
 
                     <p className="card-text">
                         <small className="text-muted"> {full_name} </small>
@@ -38,7 +38,7 @@ export const CharacterCard = ({
                         <small className="text-muted"> {race} </small>
                     </p>
 
-                    <p className="card-text mb-1">
+                    <p className="card-text">
                         <small className="text-muted"> {first_appearance} </small>
                     </p>
 

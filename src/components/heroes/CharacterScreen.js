@@ -35,7 +35,7 @@ export const CharacterScreen = ({history}) => {
         <>
             <div className="container">
                 <div className="row mt-5  mb-5">
-                    <div className="col-4">
+                    <div className="col-5">
                         <button  
                             className="btn btn-back mb-3" 
                             onClick={ handleReturn }
@@ -49,8 +49,8 @@ export const CharacterScreen = ({history}) => {
                         />
                     </div>
 
-                    <div className="col-8 mb-3">
-                        <h3 className="mt-3">{name}</h3>
+                    <div className="col-7 mb-3">
+                        <h3 className="mt-3 mb-3 text-uppercase">{name}</h3>
 
                         <ul className=" list-group list-group-flush">
                             <li className="list-group-item text-muted"> <b>Publisher:</b> {biography['publisher']}. </li>
