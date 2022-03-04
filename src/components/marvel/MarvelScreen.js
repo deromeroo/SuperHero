@@ -1,5 +1,5 @@
 import React from 'react'
-import {CharactersList} from '../heroes/CharactersList';
+import {CharactersList} from '../character/CharactersList';
 import { Footer } from '../iu/Footer';
 import { SecondNavbar } from '../iu/SecondNavbar';
 
@@ -26,7 +26,7 @@ export const MarvelScreen = () => {
             <SecondNavbar data={data} />
 
             <div className="container mt-3">
-                <h1 className="mb-4 mt-4 text-center">HEROES</h1>
+                <h1 className="mb-4 mt-4 text-center">MARVEL HEROES</h1>
 
                 <div className="">
                     <CharactersList publisher="Marvel Comics" alignment="good"/> 

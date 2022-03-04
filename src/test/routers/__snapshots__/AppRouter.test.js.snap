@@ -1,0 +1,1661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en AppRputer debe de mostrar el login si no está autenticado 1`] = `
+<div>
+  Array [
+    <div
+      className="login-page"
+    >
+      <div
+        className="login-box "
+      >
+        <div
+          className="card card-outline card-primary"
+        >
+          <div
+            className="login-logo text-center card-header"
+          >
+            <h5>
+              Super
+              <span>
+                Hero
+              </span>
+            </h5>
+          </div>
+          <div
+            className="card-body login-card-body"
+          >
+            <h6
+              className="login-box-msg text-left ml-1"
+            >
+              Sign in
+            </h6>
+            <div>
+              <div
+                className="input-group mb-3"
+              >
+                <input
+                  className="form-control"
+                  placeholder="Email"
+                  type="email"
+                />
+                <div
+                  className="input-group-append"
+                >
+                  <div
+                    className="input-group-text"
+                  >
+                    <i
+                      className="bi bi-envelope-fill"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="input-group mb-3"
+              >
+                <input
+                  className="form-control"
+                  placeholder="Password"
+                  type="password"
+                />
+                <div
+                  className="input-group-append"
+                >
+                  <div
+                    className="input-group-text"
+                  >
+                    <i
+                      className="bi bi-lock-fill"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="mt-2 mb-3"
+              >
+                <button
+                  className="btn btn-dark btn-block"
+                  onClick={[Function]}
+                >
+                  Login
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>,
+    <footer
+      className="copy fixed-bottom"
+    >
+      <p>
+        Developed by Diego Romero  |  
+        <span>
+          2022
+        </span>
+          |  All Rights Reserved ©
+      </p>
+    </footer>,
+  ]
+</div>
+`;
+
+exports[`Pruebas en AppRputer no debe de mostrar el componente marvel si esta autenticado 1`] = `
+<div>
+  Array [
+    <nav
+      className="navbar navbar-expand-sm navbar-dark first-nav px-3 py-2"
+    >
+      <a
+        className="navbar-brand"
+        href="/marvel"
+        onClick={[Function]}
+      >
+        Super
+        <span>
+          Hero
+        </span>
+      </a>
+      <div
+        className=""
+      >
+        <div
+          className="navbar-nav"
+        >
+          <a
+            aria-current="page"
+            className="nav-item nav-link active"
+            href="/marvel"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Marvel
+          </a>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/search"
+            onClick={[Function]}
+          >
+            <div
+              className="search-icon"
+            >
+              Search 
+              <i
+                className="bi bi-search"
+              />
+            </div>
+          </a>
+          <a
+            aria-current={null}
+            className="navbar-toggler"
+            href="/login"
+            onClick={[Function]}
+          >
+            <i
+              className="bi bi-box-arrow-in-right"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        className="navbar-collapse collapse w-100 order-3 dual-collapse2 justify-content-end"
+      >
+        <ul
+          className="navbar-nav ml-auto"
+        >
+          <span
+            className="nav-item nav-link user"
+          >
+            Anthony
+          </span>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/login"
+            onClick={[Function]}
+          >
+            Logout 
+            <i
+              className="bi bi-box-arrow-in-right"
+            />
+          </a>
+        </ul>
+      </div>
+    </nav>,
+    <div>
+      Array [
+        <div
+          className="marvel-cover"
+        />,
+        <div
+          className="navbar navbar-expand-sm navbar-dark px-3 py-2 "
+        >
+          <div
+            className="navbar-nav second-nav  m-auto"
+          >
+            <a
+              aria-current="page"
+              className="nav-item nav-link active"
+              href="/marvel"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              HEROES
+            </a>
+            <a
+              aria-current={null}
+              className="nav-item nav-link"
+              href="/marvel/villains"
+              onClick={[Function]}
+            >
+              VILLAINS
+            </a>
+          </div>
+        </div>,
+        <div
+          className="container mt-3"
+        >
+          <h1
+            className="mb-4 mt-4 text-center"
+          >
+            HEROES
+          </h1>
+          <div
+            className=""
+          >
+            <div
+              className="card-columns animate__animated animate__fadeInUp mb-5"
+            >
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Ironman"
+                      className="card-img "
+                      src="https://www.venta.com.mx/sh-img/aug180958__70638.1541100080_marvel%2Bcomics%2Biron%2Bman.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Ironman
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Tony Stark
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Tales of Suspence #39 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Ironman"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Captain America"
+                      className="card-img "
+                      src="http://pm1.narvii.com/6944/327225206fad0b5f8fdcf84921219b37e3071c65r1-720-938v2_00.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Captain America
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Steve Rogers
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Captain America Comics #1 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Captain America"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Thor"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/140.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Thor
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Thor Odinson
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Asgardian
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Journey into Mystery #83 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Thor"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Hawkeye"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/73.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Hawkeye
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Clint Barton
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Tales of Suspense #57 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Hawkeye"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Hulk"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/83.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Hulk
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Bruce Banner
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human / Radiation
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Incredible Hulk #1 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Hulk"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Black Widow"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/248.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Black Widow
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Natasha Romanoff
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Tales of Suspense #52
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Black Widow"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Black Panther"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/247.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Black Panther
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          T'Challa
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Fantastic Four Vol. 1 #52 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Black Panther"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Spider-Man"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/133.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Spider-Man
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Peter Parker
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Amazing Fantasy #15
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Spider-Man"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Ant-Man II"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/166.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Ant-Man II
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Scott Lang
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Avengers Vol 1 #181 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Ant-Man II"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Wolverine"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/161.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Wolverine
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Logan
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Mutant
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Incredible Hulk Vol. 2 #180
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Wolverine"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Cyclops"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/50.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Cyclops
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Scott Summers
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Mutant
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          X-Men #1 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Cyclops"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Jean Grey"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/814.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Jean Grey
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Jean Grey
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Mutant
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          X-Men #1 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Jean Grey"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Invisible Woman"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/620.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Invisible Woman
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Susan Storm Richards
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human / Radiation
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          FANTASTIC FOUR #1
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Invisible Woman"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Human Torch"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/362.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Human Torch
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Johnny Storm
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human / Radiation
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Fantastic Four #1 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Human Torch"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Mister Fantastic"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/408.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Mister Fantastic
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Reed Richards
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human / Radiation
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          FANTASTIC FOUR #1
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Mister Fantastic"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Star-Lord"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/10015.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Star-Lord
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Peter Jason Quill
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Human-Spartoi
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Marvel Preview #4 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Star-Lord"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Gamora"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/65.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Gamora
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Gamora
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Zen-Whoberian
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Strange Tales #180
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Gamora"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card mb-4"
+                style={
+                  Object {
+                    "maxWidth": 580,
+                  }
+                }
+              >
+                <div
+                  className="row no-gutters"
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <img
+                      alt="Groot"
+                      className="card-img "
+                      src="https://www.superherodb.com/pictures2/portraits/10/100/10017.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-md-6"
+                  >
+                    <div
+                      className="card-body"
+                    >
+                      <h5
+                        className="card-title text-center"
+                      >
+                         
+                        Groot
+                         
+                      </h5>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Groot
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Flora Colossus
+                           
+                        </small>
+                      </p>
+                      <p
+                        className="card-text"
+                      >
+                        <small
+                          className="text-muted"
+                        >
+                           
+                          Tales to Astonish #13 
+                           
+                        </small>
+                      </p>
+                      <a
+                        href="/character/Groot"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="bi bi-arrow-right-square-fill"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>,
+        <footer
+          className="copy fixed-bottom"
+        >
+          <p>
+            Developed by Diego Romero  |  
+            <span>
+              2022
+            </span>
+              |  All Rights Reserved ©
+          </p>
+        </footer>,
+      ]
+    </div>,
+  ]
+</div>
+`;

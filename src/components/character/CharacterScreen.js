@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { Redirect, useParams } from 'react-router-dom';
 import { Footer } from '../iu/Footer';
-import { getCharacterById } from '../selectors/getCharacterById';
+import { getCharacterById } from '../../selectors/getCharacterById';
 
 export const CharacterScreen = ({history}) => {
 

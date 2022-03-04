@@ -2,10 +2,9 @@ import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { Navbar } from '../components/iu/Navbar';
 
-// import { HomeScreen } from '../components/home/HomeScreen';
 import { MarvelScreen } from '../components/marvel/MarvelScreen';
 import { DcScreen } from '../components/dc/DcScreen';
-import { CharacterScreen } from '../components/heroes/CharacterScreen';
+import { CharacterScreen } from '../components/character/CharacterScreen';
 import { SearchScreen } from '../components/search/SearchScreen';
 import { MarvelVillainsScreen } from '../components/marvel/MarvelVillainsScreen';
 import { DcVillainsScreen } from '../components/dc/DcVillainsScreen';

@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { getCharactersByPublisher } from '../selectors/getCharactersByPublisher';
+import { getCharactersByPublisher } from '../../selectors/getCharactersByPublisher';
 import { CharacterCard } from './CharacterCard';
 
 export const CharactersList = ({ publisher, alignment}) => {    

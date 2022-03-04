@@ -38,7 +38,7 @@ export const LoginScreen = () => {
                         </div>
 
                         <div className="card-body login-card-body">
-                            <p className="login-box-msg">Sign in</p>
+                            <h6 className="login-box-msg text-left ml-1">Sign in</h6>
 
                             <div>
                                 <div className="input-group mb-3">

@@ -1,4 +1,4 @@
-import { characters } from "../../data/CharactersData";
+import { characters } from "../data/CharactersData";
 
 export const getCharacterByName = (name = '') => {
 

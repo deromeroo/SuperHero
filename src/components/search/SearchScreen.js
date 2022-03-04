@@ -2,9 +2,9 @@ import React, { useMemo } from 'react';
 import queryString from 'query-string';
 
 import { useLocation } from 'react-router-dom';
-import { CharacterCard } from '../heroes/CharacterCard';
-import { useForm } from '../hooks/useForm';
-import { getCharacterByName } from '../selectors/getCharactersByName';
+import { CharacterCard } from '../character/CharacterCard';
+import { useForm } from '../../hooks/useForm';
+import { getCharacterByName } from '../../selectors/getCharactersByName';
 import { Footer } from '../iu/Footer';
 
 export const SearchScreen = ({history}) => {

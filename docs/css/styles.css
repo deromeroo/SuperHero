@@ -17,6 +17,10 @@ h1,h2,h3{
     color: var(--colorExtra);
 }
 
+h6{
+    font-size: 1.1rem;
+}
+
 p{
     font-family: var(--fuenteSecundaria);
     margin: 0;
@@ -40,6 +44,10 @@ a:hover{
 
 button{
     font-family: var(--fuentePrincipal);
+}
+
+img{
+    width: 100%;
 }
 
 /*Covers de la web*/
@@ -104,6 +112,7 @@ button{
 
 .list-group-item{
     padding: .5rem 1rem;
+    text-transform: capitalize;
 }
 
 .card a {
@@ -118,6 +127,14 @@ button{
 
 .card-title{
     color: var(--colorSecundario);
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.card-body{
+    text-align: center;
+    padding: .5rem !important;
 }
 
 .btn-back{
