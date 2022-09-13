@@ -11,7 +11,7 @@ export const Footer = () => {
     return (
         <footer className="copy fixed-bottom">
 
-            <p>Developed by Diego Romero  |  <span>{year}</span>  |  All Rights Reserved ©</p>
+            <p>Developed by @Deromeroo |  <span>{year}</span>  |  All Rights Reserved ©</p>
 
         </footer>
     )

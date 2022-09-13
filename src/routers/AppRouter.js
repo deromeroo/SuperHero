@@ -10,7 +10,7 @@ import { PublicRoute } from "./PublicRoute";
 
 export const AppRouter = () => {
     return (
-        <Router>
+        <Router basename="/SuperHero">
             <div>
 
                 <Switch>
